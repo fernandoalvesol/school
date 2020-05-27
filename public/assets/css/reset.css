@@ -1,0 +1,103 @@
+*{margin: 0px; padding: 0px;}
+
+img{max-width: 25%;}
+
+.navbar-nav>li>a{
+    padding: 0px 10px;
+    color: #fff;
+    margin: 9px 19px 5px 24px;
+    font-size: 17px;
+}
+.navbar-nav>li>a:houver{
+    text-decoration: none;
+}
+
+.dropdown-menu>a{
+    color: #62b0e1;
+    margin: 8px 9px 8px 19px;
+    padding: 11px 9px 8px 1px;
+    font-size: 13px;
+}
+
+.navbar-toggler{
+    background: #fff;
+}
+
+
+.pagination>li{}
+.pagination>li>a, .pagination>li>span{
+    border-color: #bd3f2f !important;
+    padding: 7px 14px;
+    margin: 6px;
+    background: #49ccfe;
+    color: #FFF;
+    font-size: 1.6em;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    background: #c14232;
+    color: #FFF;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{background-color: #a03f33;border-color: #4a2b27;}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #49ccfe;
+    border-bottom: #333;
+    color: #fff;
+}
+
+.btn-link {
+    font-weight: bold;
+    color: #e27333;
+    text-transform: uppercase;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    border-color: #ec5544;
+    border-radius: 24px;
+    margin-bottom: -4px;
+    padding: 23px 5px;
+    margin: 7px 8px;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #37822a;
+}
+
+.form-control{
+    border-radius: 6px;
+    height: 49px;
+}
+
+.input-group-text{
+    color: #ffffff;
+    background: #49ccfe;
+    border: 0px;
+    border-radius: 5px;
+    margin: 0px 0px;
+    padding: 2px 20px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+    background: #49ccfe;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 6px;
+    height: 49px;
+    margin: 5px 4px;
+}
+
+.navbar-nav>li>.dropdown-menu{
+    
+margin: 7px 63px 8px 7px;
+    
+padding: 9px 8px 9px -8px;
+}
